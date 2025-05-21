@@ -1,163 +1,108 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Varadharaj Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Hero Section with Photo -->
-  </div>
-</section>
+
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1 class="headline">Hi, I'm <span class="name">Varadharaj</span></h1>
-      <h2 class="subheadline"><span class="typed-text">Network Engineer</span></h2>
-      <p class="description">
-        Mechanical Engineering graduate with CCNA certification, aspiring to start a career blending engineering and networking skills.
-      </p>
+      <h1>Hi, I'm <span class="name">Varadharaj</span></h1>
+      <h2 class="typed-text">Network Engineer</h2>
+      <p>Mechanical Engineering graduate with CCNA certification...</p>
       <div class="cta-buttons">
         <a href="#projects" class="btn primary">View My Work</a>
         <a href="#contact" class="btn secondary">Get in Touch</a>
       </div>
     </div>
   </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="assets/images/profile.png" alt="Photo" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>I'm varadharaj, a passionate Mechanical engineer who loves turning ideas into real-world web experiences...</p>
+        <div class="highlights">
+          <div class="highlight"><h3>1+ Years</h3><p>Experience in networking</p></div>
+          <div class="highlight"><h3>CCNA Projects</h3><p>Completed switching & routing</p></div>
+          <div class="highlight"><h3>Mechanical Projects</h3><p>Solidworks, AutoCAD</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-container">
+      <div class="skills-category">
+        <h3>CCNA</h3>
+        <div class="skills-grid">
+          <div class="skill-card">Switching</div>
+          <div class="skill-card">Routing</div>
+          <div class="skill-card">WAN</div>
+          <div class="skill-card">LAN</div>
+          <div class="skill-card">IPv4/v6</div>
+          <div class="skill-card">VPN</div>
+          <div class="skill-card">NAT</div>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Design</h3>
+        <div class="skills-grid">
+          <div class="skill-card">Solidworks</div>
+          <div class="skill-card">AutoCAD</div>
+          <div class="skill-card">Graphic Design</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>CCNA</h3>
+        <p>L1_project.</p>
+        <p>Switching, routing, NAT & VPN using Cisco Packet Tracer</p>
+        <a href="assets/docs/L1_projects.pdf" target="_blank" class="btn small">View PDF</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Mechanical</h3>
+        <p>Design project.</p>
+        <p>Routing project using Cisco Packet Tracer</p>
+        <a href="assets/docs/NAT_VPN_13-05-2025.pkt" target="_blank" class="btn small">View File</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect and create something awesome.</p>
+    <div class="contact-icons">
+      <a href="tel:+918072142627" title="Phone" target="_blank"><i class="fas fa-phone"></i></a>
+      <a href="mailto:selvamvgnsh@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/varadharaj1230" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/lenin_vicki/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Varadharaj. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
-<!-- Add this below your Hero section in index.html -->
-<section class="about" id="about">
-  <div class="about-container">
-    <div class="about-image">
-      <img src="c:\Users\HP\Pictures\Screenshots\Screenshot (43).png" alt="Photo" />
-    </div>
-    <div class="about-content">
-      <h2>About Me</h2>
-      <p>
-        I'm varadharaj, a passionate Mechanical engineer who loves turning ideas into real-world web experiences. I specialize in Network engineer with a strong knowledge in CCNA concepts and cad design.
-      </p>
-      <div class="highlights">
-        <div class="highlight">
-          <h3>1+ Years</h3>
-          <p>Experience in networking</p>
-        </div>
-        <div class="highlight">
-          <h3>CCNA Projects</h3>
-          <p>Completed with switching & routing </p>
-        </div>
-        <div class="highlight">
-          <h3>Mechanical Projects</h3>
-          <p>soildworks, autocadd</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Add this after the About Me section in index.html -->
-<section class="skills" id="skills">
-  <div class="skills-container">
-    <h2>Skills & Tools</h2>
-
-    <div class="skills-category">
-      <h3>CCNA</h3>
-      <div class="skills-grid">
-        <div class="skill-card">switching</div>
-        <div class="skill-card">routing</div>
-        <div class="skill-card">WAN</div>
-        <div class="skill-card">LAN</div>
-        <div class="skill-card">IPV4/V6</div>
-        <div class="skill-card">VPN</div>
-        <div class="skill-card">NAT</div>
-      </div>
-    </div>
-
-    <div class="skills-category">
-      <h3>design</h3>
-      <div class="skills-grid">
-        <div class="skill-card">soildworks</div>
-        <div class="skill-card">autocadd</div>
-        <div class="skill-card">graphic design</div>
-      </div>
-    </div>
-    </div>
-  </div>
-</section>
-<!-- Add this below the Skills section in index.html -->
-<section class="projects" id="projects">
-  <div class="projects-container">
-    <h2>My Projects</h2>
-
-    <div class="projects-grid">
-      <!-- Project Card 1 -->
-      <div class="project-card">
-        <div class="project-info">
-          <h3>CCNA</h3>
-          <p>L1_project.</p>
-          <div class="project-links">
-            switching,routing,NAT&VPN using cisco packet Tracer
-            <a href="C:\Users\HP\Documents\L1_projects.pdf" target="_blank">View</a>
-          </div>
-        </div>
-      </div>
-      <!-- Add more project cards as needed -->
-    <div class="projects-grid">
-      <!-- Project Card 1 -->
-      <div class="project-card">
-        <div class="project-info">
-          <h3>Mechanical</h3>
-          <p>design_project.</p>
-          <div class="project-links">
-            routing_project using cisco packet Tracer
-            <a href="C:\Users\HP\Cisco Packet Tracer 9.0.0\saves\NAT&VPN_13-05-2025.pkt" target="_blank">View</a>
-          </div>
-        </div>
-      </div>
-      <!-- Add this below your Projects section in index.html -->
-<!-- Project Card 1 (spacing fixed) -->
-<!-- Contact Section with Icons Only -->
-<section class="contact" id="contact">
-  <div class="contact-container">
-    <h2>Contact Me</h2>
-    <p class="contact-description">Let’s connect and create something awesome.</p>
-
-    <!-- Contact Icons -->
-    <!-- Contact Icons -->
-<!-- Contact Section Icons with Resume Button -->
-<!-- Contact Icons with Logos -->
-<div class="contact-icons">
-  <!-- Phone -->
-  <a href="tel:+918072142627" title="Phone" target="_blank">
-    <i class="fas fa-phone"></i>
-  </a>
-
-  <!-- Email -->
-  <a href="mailto:selvamvgnsh@gmail.com" title="Email" target="_blank">
-    <i class="fas fa-envelope"></i>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/varadharaj1230" title="LinkedIn" target="_blank">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/lenin_vicki/" title="Instagram" target="_blank">
-    <i class="fab fa-instagram"></i>
-  </a>
-</div>
-</div>
-
-  </a>
-</div>
-</div>
-  </div>
-</section>
-<!-- Footer Section -->
-<footer class="footer">
-  <div class="footer-container">
-    <p class="footer-text">© 2025 varadharaj. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
